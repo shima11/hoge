@@ -4,7 +4,10 @@ pipeline {
     stage('hoge') {
       steps {
         sh '''echo "hoge"
-sh hoge.sh'''
+
+sh hoge.sh
+
+env'''
       }
     }
   }
